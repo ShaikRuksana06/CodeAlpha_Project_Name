@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <div class="player">
+        <audio id="audio"></audio>
+        <div class="info">
+            <h2 id="songTitle">vaaste</h2>
+        </div>
+        <div class="controls">
+            <button id="prevBtn">Previous</button>
+            <button id="playPauseBtn">Play</button>
+            <button id="nextBtn">Next</button>
+            <input type="range" id="progressBar" value="0" max="100">
+            <span id="currentTime">0:00</span> / <span id="duration">4:00</span>
+        </div>
+    </div>
+
+    <script src="music.js"></script>
+</body>
+</html>
